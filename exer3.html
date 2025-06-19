@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exer3 – Targeting Elements using CSS operators</title>
+  <style>
+    .container #myHeader {
+      color: red;
+    }
+
+    div + h3 {
+      color: green;
+    }
+
+    .myText1 + .myText2 {
+      color: orange;
+    }
+
+    .myInput[type="text"], input[type="email"] {
+      border: 2px solid green;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 id="myHeader">Let’s break the CSS matrix.</h1>
+  </div>
+
+  <div>Just a boring div minding its business.</div>
+  <h3>But I glow green thanks to sibling rules.</h3>
+
+  <p class="myText1">Text One: The calm before the orange storm.</p>
+  <p class="myText2">Text Two: Orange you glad this worked?</p>
+
+  <form>
+    <input class="myInput" type="text" placeholder="Type something... maybe a bug 🐞" />
+    <input type="email" placeholder="Your email (no spam, pinky promise)" />
+  </form>
+
+</body>
+</html>
