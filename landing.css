@@ -1,0 +1,46 @@
+/* Set gradient background from light pink to light orange */
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, lightpink, lightsalmon);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Center content with flexbox */
+.main-container {
+  text-align: center;
+}
+
+/* Large heading with shadow */
+h1 {
+  font-size: 3em;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* darker, stronger shadow */
+  margin-bottom: 20px;
+}
+
+
+/* Style paragraph */
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Styled button */
+button {
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff8c69; /* coral-ish hover */
+  color: white;
+}
